@@ -7,9 +7,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /* Fundamental Responsive Image Styles */
 img {
   display: block;
   max-width: 100%;
+}
+
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 0px;
+  color: #EEE;
+  background: rgba(20,20,20,0.8);
+  width: 100%;
+  padding: 6px;
+}
+
+.photo-gallery li {
+  margin-bottom: 12px;
 }
